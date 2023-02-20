@@ -3,7 +3,6 @@ from cfg.bot_cfg import dp
 from aiogram import types
 from aiogram.dispatcher.storage import FSMContext
 from captchas.make_captcha import generate_captcha
-from aiogram.types import inlin
 
 @dp.message_handler(state = UserStates.reg)
 async def reg(message: types.Message):

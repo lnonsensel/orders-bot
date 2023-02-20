@@ -7,6 +7,7 @@ sys.path.append(f'{current_path}/cfg')
 sys.path.append(f'{current_path}/logs')
 sys.path.append(f'{current_path}/states')
 sys.path.append(f'{current_path}/sql')
+sys.path.append(f'{current_path}/keyboards')
 
 from aiogram import executor
 from states import *

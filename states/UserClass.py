@@ -4,7 +4,7 @@ from dataclasses import dataclass, field
 class User:
     id: str
     name: str
-    orders_ids: list[str] = field(default_factory = list)
+    orders_ids: str = ''
 
     def unpack(self) -> list[str]:
         all_data = self.__dict__.values()
